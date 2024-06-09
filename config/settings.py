@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': "postgresql_password",
+        'PASSWORD': "postgres_password",
         'HOST': "django-phone-book-project-database.<random_string>.ap-south-1.rds.amazonaws.com",
         'PORT': '5432'
     },
@@ -94,7 +94,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': "postgresql_password",
+        'PASSWORD': "postgres_password",
         'HOST': "django-phone-book-project-database-read-replica.<random_string>.ap-south-1.rds.amazonaws.com",
         'PORT': '5432'
     },    
