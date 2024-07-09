@@ -1,5 +1,10 @@
 FROM python:3.10
 
+ENV PYTHONDONTWRITEBYTECODE 1
+
+# for setting python output directly to the terminal without buffering
+ENV PYTHONUNBUFFERED 1
+
 WORKDIR /src
 
 COPY . .
